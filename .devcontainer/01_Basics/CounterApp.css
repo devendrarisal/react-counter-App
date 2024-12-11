@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3; /* Light wheat background */
+  }
+  
+  .counter-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar span {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  /* Counter Box */
+  .counter-box {
+    background-color: #add8e6; /* Light blue background */
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Buttons */
+  .button-group {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .increment-btn {
+    background-color: green;
+  }
+  
+  .decrement-btn {
+    background-color: red;
+  }
+  
+  .reset-btn {
+    background-color: blue;
+  }
+  
+  .set-btn {
+    background-color: gray;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
